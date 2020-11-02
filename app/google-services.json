@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "991398103801",
+    "firebase_url": "https://videoapp-6c9f0.firebaseio.com",
+    "project_id": "videoapp-6c9f0",
+    "storage_bucket": "videoapp-6c9f0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:991398103801:android:83ffb7f8bc56e62f707028",
+        "android_client_info": {
+          "package_name": "com.nessy.videoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "991398103801-21nmjjje2l955gn6qsa2lq8jumjmpfk6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjwwgS0pVs-pHvwzuCx9CkXB9ROdqJNbs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "991398103801-21nmjjje2l955gn6qsa2lq8jumjmpfk6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

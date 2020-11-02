@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">VideoApp</string>
+    <string name="enter_title">Enter Title</string>
+    <string name="upload_video">Upload Video</string>
+    <string name="addVideo">Add Video</string>
+    <string name="add_video">Add Video</string>
+    <string name="enter_desc">Description</string>
 </resources>
