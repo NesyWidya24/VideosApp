@@ -5,4 +5,6 @@
     <string name="addVideo">Add Video</string>
     <string name="add_video">Add Video</string>
     <string name="enter_desc">Description</string>
+    <string name="the_title_of_the_video">The title of the video</string>
+    <string name="time">dd/MM/yyyy hh:mm</string>
 </resources>

@@ -33,6 +33,7 @@ class AddVideoActivity : AppCompatActivity() {
 
     private var videoUri: Uri? = null
     private var title: String = ""
+    private var desc: String = ""
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -57,9 +58,13 @@ class AddVideoActivity : AppCompatActivity() {
         //handle click, upload video
         uploadVideoBtn.setOnClickListener {
             title = titleEt.text.toString().trim()
+            desc = descEt.text.toString().trim()
             if (TextUtils.isEmpty(title)) {
                 //no title is entered
                 Toast.makeText(this, "Title is Required", Toast.LENGTH_SHORT).show()
+            } else if (TextUtils.isEmpty(desc)) {
+                //no desc is entered
+                Toast.makeText(this, "Description is Required", Toast.LENGTH_SHORT).show()
             } else if (videoUri == null) {
                 //video is not picked
                 Toast.makeText(this, "Pick the video first", Toast.LENGTH_SHORT).show()
@@ -100,6 +105,7 @@ class AddVideoActivity : AppCompatActivity() {
                     val hashMap = HashMap<String, Any>()
                     hashMap["id"] = timestamp
                     hashMap["title"] = title
+                    hashMap["desc"] = desc
                     hashMap["timestamp"] = timestamp
                     hashMap["videoUrl"] = "$downloadUri"
 
@@ -120,7 +126,6 @@ class AddVideoActivity : AppCompatActivity() {
                 Toast.makeText(this, "", Toast.LENGTH_SHORT).show()
             }
     }
-
 
     private fun setVideoToVideoView() {
         //set the picked video to video view
