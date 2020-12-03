@@ -11,12 +11,12 @@ class ModelVideo {
 
     }
 
-    constructor(id: String?, title: String?, desc: String?, timestamp: String?, videoUrl: String?) {
+    constructor(id: String?, title: String?, desc: String?, timestamp: String?, videoUri: String?) {
         this.id = id
         this.title = title
         this.desc = desc
         this.timestamp = timestamp
-        this.videoUri = videoUrl
+        this.videoUri = videoUri
     }
 
 

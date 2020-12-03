@@ -107,7 +107,7 @@ class AddVideoActivity : AppCompatActivity() {
                     hashMap["title"] = title
                     hashMap["desc"] = desc
                     hashMap["timestamp"] = timestamp
-                    hashMap["videoUrl"] = "$downloadUri"
+                    hashMap["videoUri"] = "$downloadUri"
 
                     //put the above info to db
                     val dbRef = FirebaseDatabase.getInstance().getReference("Videos")

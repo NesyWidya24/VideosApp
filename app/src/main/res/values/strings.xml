@@ -7,4 +7,6 @@
     <string name="enter_desc">Description</string>
     <string name="the_title_of_the_video">The title of the video</string>
     <string name="time">dd/MM/yyyy hh:mm</string>
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
 </resources>
