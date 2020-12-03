@@ -75,7 +75,7 @@ class AdapterVideo(
         val videoUrl = modelVideo.videoUri!! //to del video from direbase storage
 
 //        del from firebase storage
-        val storageReference = FirebaseStorage.getInstance().getReference(videoUrl)
+        val storageReference = FirebaseStorage.getInstance().getReferenceFromUrl(videoUrl)
         storageReference.delete()
             .addOnSuccessListener {
                 //del from storage
